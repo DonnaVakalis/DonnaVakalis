@@ -20,7 +20,7 @@ I'm particularly interested in how we can learn *generalizable physics* from sim
 
 ## Selected Publications
 
-- **HVAC Spice** — UrbanAI @ NeurIPS 2025 and newer version under review @ ICLR [[OpenReview]](https://openreview.net/forum?id=Ovzyb9iB6M)
+- **HVAC Spice** — UrbanAI @ NeurIPS 2025  
 - **Graph Dreamer: Temporal Graph World Models for Sample-Efficient and Generalisable RL** — WiML @ NeurIPS 2025 [[OpenReview]](https://openreview.net/forum?id=pHmgNUZixd)
 - **A HOT Dataset: 150,000 Buildings for HVAC Operations Transfer Research** — BuildSys 2025 [[HuggingFace]](https://huggingface.co/datasets/BuildingBench/HOT)
 - **Challenges and Opportunities of IoT in Occupant-Centric Building Operations** — Current Opinion in Environmental Sustainability, 2023 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S1877343523001306)
