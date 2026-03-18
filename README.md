@@ -2,19 +2,19 @@
 
 **Postdoctoral Fellow** at [Mila – Quebec AI Institute](https://mila.quebec/en/person/donna-vakalis/), co-supervised by [Yoshua Bengio](https://yoshuabengio.org/) and [David Rolnick](https://davidrolnick.com/).
 
-I develop AI systems to reduce carbon emissions from buildings—which account for ~37% of global CO₂ emissions. My research focuses on **graph-structured world models** and **reinforcement learning** for HVAC control, with an emphasis on building transferable systems that generalize across different building types, layouts, and climates. Previously I studied causal inference and Bayesian methods for decision-making, in the context of indoor air quality and energy use in cities. 
+During my post-doc I developed AI systems to reduce carbon emissions from buildings—which account for ~37% of global CO₂ emissions. My research focuses on **graph-structured world models** and **reinforcement learning**, with an emphasis on systems that generalize (for example, across different building types, network layouts, and environments). Previously I studied causal inference and Bayesian methods for decision-making. 
 
 ---
 
 ## Current Research
 
-My work sits at the intersection of **graph neural networks**, **model-based RL**, and **building physics**:
+My work sits at the intersection of **model-based RL**, **graph neural networks**, and **physics**:
 
-- **Graph Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies
-- **HVAC-GRACE** — Graph-based Bayesian forecasting and control for buildings
+- **G Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies
 - **HOT Dataset** — A dataset of ~150,000 simulated controllable buildings and gym for transfer learning research
+- **ARC playground** — A testbed for exploring learning concepts as invariants / constraints instead of conventional labels
 
-I'm particularly interested in how we can learn *generalizable physics* from simulations  
+I'm particularly interested in how we can learn *generalizable physics* from simulations.   
 
 ---
 
