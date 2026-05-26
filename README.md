@@ -8,11 +8,12 @@ During my post-doc I developed AI systems to reduce carbon emissions from buildi
 
 ## Current Research
 
-My work sits at the intersection of **model-based RL**, **graph neural networks**, and **physics**:
+My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**:
 
 - **G Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies
 - **HOT Dataset** — A dataset of ~150,000 simulated controllable buildings and gym for transfer learning research
-- **ARC playground** — A testbed for exploring learning concepts as invariants / constraints instead of conventional labels
+- **World Models and Intervention Operators** -Private Repo
+- **Relational Models for MBRL** - Private Repo 
 
 I'm particularly interested in how we can learn *generalizable physics* from simulations.   
 
