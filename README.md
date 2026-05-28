@@ -10,10 +10,10 @@ During my post-doc I developed AI systems to reduce carbon emissions from buildi
 
 My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**:
 
-- **G Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies
+- **G Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies (temporarily private repo)
 - **HOT Dataset** — A dataset of ~150,000 simulated controllable buildings and gym for transfer learning research
-- **World Models and Intervention Operators** -Private Repo
-- **Relational Models for MBRL** - Private Repo 
+- **World Models and Intervention Operators** - What does it mean for a latent world model to be good for control? (temporarily private repo)
+- **Relational Models for MBRL** -  empirical-mechanistic research on when/whether relational structure in world models helps  (temporarily private repo)
 
 I'm particularly interested in how we can learn *generalizable physics* from simulations.   
 
