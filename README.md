@@ -9,10 +9,9 @@ During my post-doc I developed AI systems to reduce carbon emissions from buildi
 ## Current Research
 
 My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**:
-
+- **World Models and Intervention Operators** - What does it mean for a latent world model to be good for control?  (temporarily private repo)
 - **G Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies (temporarily private repo)
 - **HOT Dataset** — A dataset of ~150,000 simulated controllable buildings and gym for transfer learning research
-- **World Models and Intervention Operators** - What does it mean for a latent world model to be good for control? (temporarily private repo)
 - **Relational Models for MBRL** -  empirical-mechanistic research on when/whether relational structure in world models helps  (temporarily private repo)
 
 I'm particularly interested in how we can learn *generalizable physics* from simulations.   
@@ -21,7 +20,7 @@ I'm particularly interested in how we can learn *generalizable physics* from sim
 
 ## Selected Publications
 
-- **HVAC Spice** — UrbanAI @ NeurIPS 2025  
+- **Bayesian Decision-Time Inference for In-Context Reinforcement Learning from Suboptimal Data** —  2026 RLC Workshop Continual RL
 - **Graph Dreamer: Temporal Graph World Models for Sample-Efficient and Generalisable RL** — WiML @ NeurIPS 2025 [[OpenReview]](https://openreview.net/forum?id=pHmgNUZixd)
 - **A HOT Dataset: 150,000 Buildings for HVAC Operations Transfer Research** — BuildSys 2025 [[HuggingFace]](https://huggingface.co/datasets/BuildingBench/HOT)
 - **Challenges and Opportunities of IoT in Occupant-Centric Building Operations** — Current Opinion in Environmental Sustainability, 2023 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S1877343523001306)
