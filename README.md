@@ -8,26 +8,24 @@ During my post-doc I developed AI systems to reduce carbon emissions from buildi
 
 ## Current Research
 
-My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**:
-- **World Models and Intervention Operators** — What does it mean for a latent world model to be good for control? (preprint coming to arXiv)
-- **Graph Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns the structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies (temporarily private repo)
-- **HOT Dataset** — A dataset of ~150,000 simulated controllable buildings and gym for transfer-learning research
-- **Relational Models for MBRL** — Empirical-mechanistic research on when/whether relational structure in world models helps (temporarily private repo)
+My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**. I'm particularly interested in how we can learn *generalizable physics* from simulations.
 
-I'm particularly interested in how we can learn *generalizable physics* from simulations.
+- **World Models and Intervention Operators** — What does it mean for a latent world model to be good for control? Planning-time diagnostics for latent world models, and when value-equivalence is (and isn't) enough.
+  - *Operator-on-F Complements Value-Equivalence: A Planning-Time Diagnostic for Latent World Models* — accepted, RLC 2026 Workshop on Model-Based RL in the Era of Generative World Models
+  - *Beyond Value Equivalence: Dimensionality in World Models* — sole-authored preprint *(arXiv coming soon)*
 
----
+- **Graph Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns the structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies. *(code temporarily private)*
+  - *Graph Dreamer: Temporal Graph World Models for Sample-Efficient and Generalisable RL* — WiML @ NeurIPS 2025 [[OpenReview]](https://openreview.net/forum?id=pHmgNUZixd)
+  - *HVAC-GRACE: Transferable Building Control via Heterogeneous Graph Neural Network Policies* — ICML 2025 CO-BUILD Workshop *(94–97% transfer across building configurations)*
+  - *Graphs for Scalable Building Decarbonisation: A Transferable Approach to HVAC Control* — NeurIPS 2025 Workshop on Climate Change AI
 
-## Selected Publications
+- **HOT Dataset** — ~150,000 simulated controllable buildings and a gym for transfer-learning research.
+  - *A HOT Dataset: 150,000 Buildings for HVAC Operations Transfer Research* — BuildSys 2025 [[HuggingFace]](https://huggingface.co/datasets/BuildingBench/HOT)
 
-- **Beyond Value Equivalence: Dimensionality in World Models** — sole-authored preprint *(working title; arXiv coming soon)*
-- **Operator-on-F Complements Value-Equivalence: A Planning-Time Diagnostic for Latent World Models** — accepted, RLC 2026 Workshop on Model-Based RL in the Era of Generative World Models
-- **Bayesian Decision-Time Inference for In-Context Reinforcement Learning from Suboptimal Data** — accepted, RLC 2026 Workshop on Continual Reinforcement Learning [[arXiv]](https://arxiv.org/abs/2601.03015)
-- **Graph Dreamer: Temporal Graph World Models for Sample-Efficient and Generalisable RL** — WiML @ NeurIPS 2025 [[OpenReview]](https://openreview.net/forum?id=pHmgNUZixd)
-- **HVAC-GRACE: Transferable Building Control via Heterogeneous Graph Neural Network Policies** — ICML 2025 CO-BUILD Workshop · *94–97% transfer efficiency across building configurations*
-- **Graphs for Scalable Building Decarbonisation: A Transferable Approach to HVAC Control** — NeurIPS 2025 Workshop on Climate Change AI
-- **A HOT Dataset: 150,000 Buildings for HVAC Operations Transfer Research** — BuildSys 2025 [[HuggingFace]](https://huggingface.co/datasets/BuildingBench/HOT)
-- **Challenges and Opportunities of IoT in Occupant-Centric Building Operations** — Current Opinion in Environmental Sustainability, 2023 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S1877343523001306)
+- **In-Context & Bayesian RL** — Bayesian fusion of context and value priors for in-context RL from suboptimal data.
+  - *Bayesian Decision-Time Inference for In-Context Reinforcement Learning from Suboptimal Data* — accepted, RLC 2026 Workshop on Continual Reinforcement Learning [[arXiv]](https://arxiv.org/abs/2601.03015)
+
+- **Relational Models for MBRL** — Empirical-mechanistic research on when and whether relational structure in world models helps. *(in progress; code temporarily private)*
 
 📚 [Full publication list on Google Scholar](https://scholar.google.com/citations?user=iHbpJmsAAAAJ&hl=en)
 
