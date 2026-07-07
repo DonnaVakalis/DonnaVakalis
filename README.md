@@ -38,15 +38,6 @@ Co-organizing the **NeurIPS 2026 Smart Buildings Challenge: Learning Foundation 
 
 ---
 
-## Technical Focus
-
-```
-Graph Neural Networks  •  Model-Based RL  •  EnergyPlus  •  PyTorch Geometric  •  Spatiotemporal Modeling
-```
-
-Most of my recent code lives in private repositories (pre-publication research), but I'm working on releasing components as papers are published.
-
----
 
 ## Beyond Research
 
