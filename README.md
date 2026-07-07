@@ -2,13 +2,13 @@
 
 I recently wrapped up my **Postdoctoral Fellowship** at [Mila – Quebec AI Institute](https://mila.quebec/en/person/donna-vakalis/), co-supervised by [Yoshua Bengio](https://yoshuabengio.org/) and [David Rolnick](https://davidrolnick.com/).
 
-During my post-doc I developed AI systems to reduce carbon emissions from buildings—which account for ~37% of global CO₂ emissions. My research focuses on **graph-structured world models** and **reinforcement learning**, with an emphasis on systems that generalize (for example, across different building types, network layouts, and environments). Previously I studied causal inference and Bayesian methods for decision-making. Recently, I have started to focus more on objective→representation causality. 
+I build AI systems that cut carbon emissions from buildings—the source of ~37% of global CO₂. My research centers on graph-structured world models and reinforcement learning, with an emphasis on **generalisation**: across building types, network layouts, and physical environments. My current focus is **objective→representation causality** —what a training objective actually installs in a world model's latent state. Earlier work spanned causal inference and Bayesian methods for decision-making.
 
 ---
 
 ## Current Research
 
-My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**. I'm particularly interested in how we can learn *generalizable physics* and measuring **what training objectives actually do** (across architectures)? 
+My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**. I'm particularly interested in learning generalizable physics, and in measuring what training objectives actually install—across architectures.
 
 - **World Models and Intervention Operators** — What does it mean for a latent world model to be good for control? Planning-time diagnostics for latent world models, and when value-equivalence is (and isn't) enough.
   - *Operator-on-F Complements Value-Equivalence: A Planning-Time Diagnostic for Latent World Models* — [[accepted, RLC 2026 Workshop]](http://arxiv.org/abs/2607.04464) on Model-Based RL in the Era of Generative World Models
@@ -19,13 +19,14 @@ My work sits at the intersection of **model-based RL**, **graph neural networks*
   - *HVAC-GRACE: Transferable Building Control via Heterogeneous Graph Neural Network Policies* — [[ICML 2025 CO-BUILD Workshop]](https://openreview.net/pdf?id=8dRnWXy8jq) *(94–97% transfer across building configurations)*
   - *Graphs for Scalable Building Decarbonisation: A Transferable Approach to HVAC Control* — [[NeurIPS 2025 Workshop]](https://neurips.cc/virtual/2025/loc/san-diego/126943) on Climate Change AI
 
-- **HOT Dataset** — ~150,000 simulated controllable buildings and a gym for transfer-learning research.
+- **HOT Dataset** — ~150,000 simulated controllable buildings and a benchmark gym for transfer-learning research.
   - *A HOT Dataset: 150,000 Buildings for HVAC Operations Transfer Research* — BuildSys 2025 [[HuggingFace]](https://huggingface.co/datasets/BuildingBench/HOT)
 
 - **In-Context & Bayesian RL** — Bayesian fusion of context and value priors for in-context RL from suboptimal data.
   - *Bayesian Decision-Time Inference for In-Context Reinforcement Learning from Suboptimal Data* — accepted, RLC 2026 Workshop on Continual Reinforcement Learning [[arXiv]](https://arxiv.org/abs/2601.03015)
 
-- **Relational Models for MBRL** — Empirical-mechanistic research on when and whether relational structure in world models helps. *(in progress; code temporarily private)*
+- **Relational Models for MBRL** — Empirical-mechanistic research on when and whether relational structure in world models helps.
+  - When structural priors help prediction but hurt control" (in progress; code temporarily private)
 
 📚 [Full publication list on Google Scholar](https://scholar.google.com/citations?user=iHbpJmsAAAAJ&hl=en)
 
