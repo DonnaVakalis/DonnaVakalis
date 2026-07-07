@@ -16,8 +16,8 @@ My work sits at the intersection of **model-based RL**, **graph neural networks*
 
 - **Graph Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns the structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies. *(code temporarily private)*
   - *Graph Dreamer: Temporal Graph World Models for Sample-Efficient and Generalisable RL* — WiML @ NeurIPS 2025 [[OpenReview]](https://openreview.net/forum?id=pHmgNUZixd)
-  - *HVAC-GRACE: Transferable Building Control via Heterogeneous Graph Neural Network Policies* — ICML 2025 CO-BUILD Workshop *(94–97% transfer across building configurations)*
-  - *Graphs for Scalable Building Decarbonisation: A Transferable Approach to HVAC Control* — NeurIPS 2025 Workshop on Climate Change AI
+  - *HVAC-GRACE: Transferable Building Control via Heterogeneous Graph Neural Network Policies* — [[ICML 2025 CO-BUILD Workshop]](https://openreview.net/pdf?id=8dRnWXy8jq) *(94–97% transfer across building configurations)*
+  - *Graphs for Scalable Building Decarbonisation: A Transferable Approach to HVAC Control* — [[NeurIPS 2025 Workshop]](https://neurips.cc/virtual/2025/loc/san-diego/126943) on Climate Change AI
 
 - **HOT Dataset** — ~150,000 simulated controllable buildings and a gym for transfer-learning research.
   - *A HOT Dataset: 150,000 Buildings for HVAC Operations Transfer Research* — BuildSys 2025 [[HuggingFace]](https://huggingface.co/datasets/BuildingBench/HOT)
