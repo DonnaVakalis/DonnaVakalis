@@ -2,7 +2,7 @@
 
 I recently wrapped up my **Postdoctoral Fellowship** at [Mila – Quebec AI Institute](https://mila.quebec/en/person/donna-vakalis/), co-supervised by [Yoshua Bengio](https://yoshuabengio.org/) and [David Rolnick](https://davidrolnick.com/).
 
-I build AI systems that cut carbon emissions from buildings—the source of ~37% of global CO₂. My research centers on graph-structured world models and reinforcement learning, with an emphasis on **generalisation**: across building types, network layouts, and physical environments. My current focus is **objective→representation causality** —what a training objective actually installs in a world model's latent state. Earlier work spanned causal inference and Bayesian methods for decision-making.
+I study what training objectives actually install in a world model's latent state—objective→representation causality. My research centers on graph-structured world models and model-based reinforcement learning, with an **emphasis on generalization across environments, network layouts, and dynamics**. This grew out of applied work using RL to control real physical systems—building energy, where ~37% of global CO₂ lives—which taught me that the gap between predicting a system and controlling it is where the interesting questions are.
 
 ---
 
