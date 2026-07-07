@@ -11,7 +11,7 @@ During my post-doc I developed AI systems to reduce carbon emissions from buildi
 My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**. I'm particularly interested in how we can learn *generalizable physics* from simulations.
 
 - **World Models and Intervention Operators** — What does it mean for a latent world model to be good for control? Planning-time diagnostics for latent world models, and when value-equivalence is (and isn't) enough.
-  - *Operator-on-F Complements Value-Equivalence: A Planning-Time Diagnostic for Latent World Models* — accepted, RLC 2026 Workshop on Model-Based RL in the Era of Generative World Models
+  - *Operator-on-F Complements Value-Equivalence: A Planning-Time Diagnostic for Latent World Models* — [[accepted, RLC 2026 Workshop]](http://arxiv.org/abs/2607.04464) on Model-Based RL in the Era of Generative World Models
   - *Beyond Value Equivalence: Dimensionality in World Models* — sole-authored preprint *(arXiv coming soon)*
 
 - **Graph Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns the structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies. *(code temporarily private)*
