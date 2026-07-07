@@ -1,18 +1,18 @@
 # Hi, I'm Donna
 
-**Postdoctoral Fellow** at [Mila – Quebec AI Institute](https://mila.quebec/en/person/donna-vakalis/), co-supervised by [Yoshua Bengio](https://yoshuabengio.org/) and [David Rolnick](https://davidrolnick.com/).
+I recently wrapped up my **Postdoctoral Fellowship** at [Mila – Quebec AI Institute](https://mila.quebec/en/person/donna-vakalis/), co-supervised by [Yoshua Bengio](https://yoshuabengio.org/) and [David Rolnick](https://davidrolnick.com/).
 
-During my post-doc I developed AI systems to reduce carbon emissions from buildings—which account for ~37% of global CO₂ emissions. My research focuses on **graph-structured world models** and **reinforcement learning**, with an emphasis on systems that generalize (for example, across different building types, network layouts, and environments). Previously I studied causal inference and Bayesian methods for decision-making.
+During my post-doc I developed AI systems to reduce carbon emissions from buildings—which account for ~37% of global CO₂ emissions. My research focuses on **graph-structured world models** and **reinforcement learning**, with an emphasis on systems that generalize (for example, across different building types, network layouts, and environments). Previously I studied causal inference and Bayesian methods for decision-making. Recently, I have started to focus more on objective→representation causality. 
 
 ---
 
 ## Current Research
 
-My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**. I'm particularly interested in how we can learn *generalizable physics* from simulations.
+My work sits at the intersection of **model-based RL**, **graph neural networks**, and **the physical world**. I'm particularly interested in how we can learn *generalizable physics* and measuring **what training objectives actually do** (across architectures)? 
 
 - **World Models and Intervention Operators** — What does it mean for a latent world model to be good for control? Planning-time diagnostics for latent world models, and when value-equivalence is (and isn't) enough.
   - *Operator-on-F Complements Value-Equivalence: A Planning-Time Diagnostic for Latent World Models* — [[accepted, RLC 2026 Workshop]](http://arxiv.org/abs/2607.04464) on Model-Based RL in the Era of Generative World Models
-  - *Beyond Value Equivalence: Dimensionality in World Models* — sole-authored preprint *(arXiv coming soon)*
+  - *The Rank-One Corner: How Much Value Equivalence Does a Task Need from a World Model?* — sole-authored preprint *(arXiv coming soon)*
 
 - **Graph Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns the structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies. *(code temporarily private)*
   - *Graph Dreamer: Temporal Graph World Models for Sample-Efficient and Generalisable RL* — WiML @ NeurIPS 2025 [[OpenReview]](https://openreview.net/forum?id=pHmgNUZixd)
