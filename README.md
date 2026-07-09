@@ -12,7 +12,7 @@ My work sits at the intersection of **model-based RL**, **graph neural networks*
 
 - **World Models and Intervention Operators** — What does it mean for a latent world model to be good for control? Planning-time diagnostics for latent world models, and when value-equivalence is (and isn't) enough.
   - *Operator-on-F Complements Value-Equivalence: A Planning-Time Diagnostic for Latent World Models* — [[accepted, RLC 2026 Workshop]](http://arxiv.org/abs/2607.04464) on Model-Based RL in the Era of Generative World Models
-  - *The Rank-One Corner: How Much Value Equivalence Does a Task Need from a World Model?* — sole-authored preprint *(arXiv coming soon)*
+  - *The Rank-One Corner: How Much Value Equivalence Does a Task Need from a World Model?* — sole-authored [[preprint on arxiv]](https://arxiv.org/abs/2607.06640) 
 
 - **Graph Dreamer** — A world model architecture for variable-size, heterogeneous graph environments that learns the structural relationships governing thermal dynamics, enabling zero-shot transfer across buildings with different topologies. *(code temporarily private)*
   - *Graph Dreamer: Temporal Graph World Models for Sample-Efficient and Generalisable RL* — WiML @ NeurIPS 2025 [[OpenReview]](https://openreview.net/forum?id=pHmgNUZixd)
